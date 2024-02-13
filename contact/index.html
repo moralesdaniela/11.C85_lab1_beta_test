@@ -3,29 +3,27 @@
 <body>
 <h1> Contact </h1>
 <nav>
-<a href= "https://moralesdaniela.github.io/11.C85_lab1_beta_test/Projects" target="_blank" ></a>
+<a href= "https://moralesdaniela.github.io/11.C85_lab1_beta_test/projects" target="_blank" ></a>
 </nav> 
-<h3>Contact Form</h3>
+
 
 <div class="container">
-  <form action="/action_page.php">
-    <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name..">
-
-    <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-
-    <label for="country">Country</label>
-    <select id="country" name="country">
-      <option value="australia">Australia</option>
-      <option value="canada">Canada</option>
-      <option value="usa">USA</option>
-    </select>
+  <form action="mailto:Your_Email">
+  <method POST>
+  <enctype= text/plain> 
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" placeholder="Your email.">
 
     <label for="subject">Subject</label>
-    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    <input type="text" id="subject" name="subject" placeholder="Subject of the email..">
+
+
+    <label for="body">Subject</label>
+    <textarea id="body" name="Body" placeholder="Write something.." style="height:200px"></textarea>
 
     <input type="submit" value="Submit">
+  </method>
+  </enctype>
   </form>
 </div>
 
