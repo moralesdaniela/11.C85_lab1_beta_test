@@ -7,6 +7,12 @@ body {
     margin-inline: 5%;
     writing-mode: horizontal-tb; 
     padding: 10px ;
-
    }
+
+nav{
+    display: flex; 
+  }
+a{ 
+  flex:1; 
+}
    
